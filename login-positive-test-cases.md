@@ -33,3 +33,23 @@ Press Enter key on keyboard
 
 Expected Result:
 User should be successfully logged in.
+
+Test Case 3
+
+Test Case ID: TC_LOGIN_003
+Title: Verify login with valid email and password after app restart
+
+Steps:
+
+Close the application
+
+Reopen the application
+
+Enter valid email
+
+Enter valid password
+
+Tap Login
+
+Expected Result:
+User should successfully log in.
