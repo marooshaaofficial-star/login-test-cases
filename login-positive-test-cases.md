@@ -53,3 +53,19 @@ Tap Login
 
 Expected Result:
 User should successfully log in.
+
+Test Case 4
+
+Test Case ID: TC_LOGIN_004
+Title: Verify login with valid email having uppercase letters
+
+Steps:
+
+Open the login screen
+Enter a valid email address with uppercase characters (e.g., TEST@EMAIL.COM
+)
+Enter the correct password
+Click the Login button
+
+Expected Result:
+User should successfully log in (email should be handled in a case-insensitive manner).
