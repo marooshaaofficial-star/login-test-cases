@@ -69,3 +69,18 @@ Click the Login button
 
 Expected Result:
 User should successfully log in (email should be handled in a case-insensitive manner).
+
+Test Case 5
+
+Test Case ID: TC_LOGIN_005
+Title: Verify login with valid email and password using copy-paste
+
+Steps:
+
+Open the login screen
+Copy a registered email address and paste it into the email field
+Copy the correct password and paste it into the password field
+Click the Login button
+
+Expected Result:
+User should successfully log in and be redirected to the home/dashboard screen.
