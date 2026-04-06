@@ -84,3 +84,19 @@ Click the Login button
 
 Expected Result:
 User should successfully log in and be redirected to the home/dashboard screen.
+
+Test Case 6
+
+Test Case ID: TC_LOGIN_006
+Title: Verify login with valid credentials using “Remember Me” option
+
+Steps:
+Open the login screen
+Enter a registered email address
+Enter the correct password
+Check the “Remember Me” option
+Click the Login button
+Close and reopen the application
+
+Expected Result:
+User should remain logged in and be redirected to the home/dashboard screen without needing to log in again.
