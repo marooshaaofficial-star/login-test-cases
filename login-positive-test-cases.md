@@ -116,3 +116,20 @@ Click the Login button
 
 Expected Result:
 User should successfully log in and be redirected to the home/dashboard screen. Password visibility toggle should not affect the login functionality.
+
+Test Case 8
+
+Test Case ID: TC_LOGIN_008
+Title: Verify login with valid credentials after clearing and re-entering data
+
+Steps:
+
+Open the application login screen
+Enter a registered email address
+Enter the correct password
+Clear both email and password fields
+Re-enter the same valid email and password
+Click the Login button
+
+Expected Result:
+User should successfully log in and be redirected to the home/dashboard screen. The application should accept re-entered valid credentials without any issue.
