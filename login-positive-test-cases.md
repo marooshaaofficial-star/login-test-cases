@@ -133,3 +133,37 @@ Click the Login button
 
 Expected Result:
 User should successfully log in and be redirected to the home/dashboard screen. The application should accept re-entered valid credentials without any issue.
+
+Test Case 9
+
+Test Case ID: TC_LOGIN_009
+Title: Verify login with valid credentials after navigating back from another screen
+
+Steps:
+
+Open the application login screen
+Navigate to another screen (e.g., Forgot Password or Sign Up screen)
+Tap Back and return to the login screen
+Enter a registered email address
+Enter the correct password
+Click the Login button
+
+Expected Result:
+User should successfully log in and be redirected to the home/dashboard screen. Navigation between screens should not affect login functionality.
+
+Test Case 10
+
+Test Case ID: TC_LOGIN_010
+Title: Verify login with valid credentials after internet reconnection
+
+Steps:
+
+Open the application login screen
+Turn off the internet connection
+Turn the internet connection back on
+Enter a registered email address
+Enter the correct password
+Click the Login button
+
+Expected Result:
+User should successfully log in and be redirected to the home/dashboard screen. The application should work properly after network reconnection.
